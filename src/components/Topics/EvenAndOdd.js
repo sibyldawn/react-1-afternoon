@@ -33,7 +33,7 @@ export default class EvenAndOdd extends Component{
 
     render(){
         return(
-            <div className="puzzleBox evenOddPB">
+            <div className="puzzleBox evenAndOddPB">
                 <h4> Evens and Odds </h4>
                 <input className = "inputLine" onChange={(event) => this.handleChange(event.target.value)} />
                 <button className = "confirmationButton" onClick={() => this.assignEvenAndOdds(this.state.userInput)}>Split</button>
