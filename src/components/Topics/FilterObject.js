@@ -25,7 +25,7 @@ export default class FilterObjects extends Component{
 }
 
     handleChange(val){
-        this.setState= ({userInput: val});
+        this.setState({userInput: val});
     }
 
     filterEmployees(userInput){
